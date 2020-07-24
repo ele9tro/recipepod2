@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: recipepod2_production
-  username: recipepod2
+  username: root
   password: <%= ENV['RECIPEPOD2_DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
