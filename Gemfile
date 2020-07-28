@@ -78,3 +78,4 @@ gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 gem "bulma-rails", "~> 0.9.0"
 gem 'dotenv-rails'
+gem "refile-s3"
