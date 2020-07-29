@@ -79,4 +79,4 @@ gem "refile-mini_magick"
 gem "bulma-rails", "~> 0.9.0"
 gem 'dotenv-rails'
 gem "refile-s3"
-gem 'aws-sdk', '~> 3'
+gem 'aws-sdk'
